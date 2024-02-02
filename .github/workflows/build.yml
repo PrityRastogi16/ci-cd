@@ -2,6 +2,6 @@ on: push
 jobs:
    first-job:
      runs on : windows-latest, macos-latest
-     step : 
+     steps : 
           -run : node --version
-          -run : yarn --version
+          -run : npm --version
