@@ -4,4 +4,4 @@ jobs:
      runs on : windows-latest, macos-latest
      step : 
           -run : node --version
-          -run : npm --version
+          -run : yarn --version
