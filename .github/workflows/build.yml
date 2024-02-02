@@ -1,7 +1,8 @@
 on: push
 jobs:
    first-job:
-     runs-on : windows-latest, macos-latest
+     runs-on : ubuntu-latest
      steps : 
           - run : node --version
           - run : npm --version
+          - run : node index.js
